@@ -19,7 +19,7 @@ public class MainController {
         this.userServise = userServise;
     }
 
-    @GetMapping("/authenticated")
+    @GetMapping("/auth")
     public String authenticated() {
         return "authenticated";
     }

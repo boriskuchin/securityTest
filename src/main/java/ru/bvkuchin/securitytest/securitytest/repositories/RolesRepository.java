@@ -6,5 +6,5 @@ import ru.bvkuchin.securitytest.securitytest.entities.Role;
 import ru.bvkuchin.securitytest.securitytest.entities.User;
 
 @Repository
-public interface RolesRepository extends JpaRepository<Role, Long> {
+public interface RolesRepository extends JpaRepository<Role, Integer> {
 }
